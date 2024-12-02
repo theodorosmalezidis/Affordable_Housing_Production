@@ -1,0 +1,39 @@
+# Introduction
+
+A real-life data exploration project is one I’ve been eager to undertake. This one focuses on the Affordable Housing Production by Building dataset, which offers detailed insights into affordable housing projects across New York City’s boroughs. The dataset includes information on housing units, construction types, and affordability levels, making it a rich resource for analysis.
+
+The goal of this structured analysis, divided into five key sections, is to provide a comprehensive understanding of affordable housing initiatives in New York City. By analyzing trends, spatial patterns, and policy impacts, this project aims to uncover meaningful insights about housing efforts in the city.
+
+
+# Dataset
+
+The dataset is sourced from the [NYC OpenData](https://data.cityofnewyork.us/Housing-Development/Affordable-Housing-Production-by-Building/hg8x-zxpr/about_data) and and is maintained by The Department of Housing Preservation and Development (HPD) reports on projects, buildings, and units that began after January 1, 2014, and are counted towards either the Housing New York plan (1/1/2014 – 12/31/2021) or the Housing Our Neighbors: A Blueprint for Housing & Homelessness plan (1/1/2022 – present).
+
+
+# My Tools for the Project
+
+- **PostgreSQL :** A powerful, open-source relational database management system.
+- **VS Code :** A lightweight, versatile code editor.
+- **SQL :** Structured Query Language, a standardized programming language used to interact with relational databases.
+- **Git :** A distributed version control system that tracks changes to files and facilitates collaboration among developers. .
+- **GitHub :** Essential for sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
+- **ChatGPT :** A powerful tool for data visualization that helps me generate visual charts after providing the results of my queries.
+
+
+# Exploration and Analysis
+
+I structured this project into five sections to systematically cover specific areas I wanted to explore and analyze in detail.  By dividing the work into these sections, I was able to delve deeper into the data, uncover trends, and generate meaningful insights. This structured approach allows for a clear understanding of the dataset's content and context.
+
+Please fell free to check out every section below by clicking on the links .
+
+
+Section 1 - Project Overview
+
+Section 2 - Housing Units Analysis
+
+Section 3 - Affordability And Policy
+
+Section 4 - Geospatial Analysis
+
+Section 5 - Trends Over Time
+
