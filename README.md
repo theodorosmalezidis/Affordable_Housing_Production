@@ -28,8 +28,12 @@ Please fell free to check out every section below by clicking on the links .
 
 
 Section 1 - Project Overview
+
 Section 2 - Housing Units Analysis
+
 Section 3 - Affordability And Policy
+
 Section 4 - Geospatial Analysis
+
 Section 5 - Trends Over Time
 
