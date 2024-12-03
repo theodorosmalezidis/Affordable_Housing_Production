@@ -27,13 +27,13 @@ I structured this project into five sections to systematically cover specific ar
 Please fell free to check out every section below by clicking on the links .
 
 
-Section 1 - Project Overview
+- [Section 1 - Project Overview](https://github.com/theodorosmalezidis/Affordable_Housing_Production/tree/main/Section%201%20-%20Project%20Overview)
 
-Section 2 - Housing Units Analysis
+- [Section 2 - Housing Units Analysis](https://github.com/theodorosmalezidis/Affordable_Housing_Production/tree/main/Section%202%20-%20Housing%20Units%20Analysis)
 
-Section 3 - Affordability And Policy
+- [Section 3 - Affordability And Policy](https://github.com/theodorosmalezidis/Affordable_Housing_Production/tree/main/Section%203%20-%20Affordability%20And%20Policy)
 
-Section 4 - Geospatial Analysis
+- [Section 4 - Geospatial Analysis](https://github.com/theodorosmalezidis/Affordable_Housing_Production/tree/main/Section%204%20-%20Geospatial%20Analysis)
 
-Section 5 - Trends Over Time
+- [Section 5 - Trends Over Time](https://github.com/theodorosmalezidis/Affordable_Housing_Production/tree/main/Section%205%20-%20Trends%20Over%20Time)
 
