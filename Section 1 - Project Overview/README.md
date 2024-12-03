@@ -90,6 +90,7 @@ ORDER BY
 ```
 
 Results
+
 ![number_of_projects_per_borough](/Section%201%20-%20Project%20Overview/images/number_of_projects_per_borough.png)
 
-*Bar chart of Project Completion Status. This visualization was created with ChatGPT after importing my SQL query results*
+*Bar chart for Number of projects per borough. This visualization was created with ChatGPT after importing my SQL query results*
