@@ -12,6 +12,7 @@ FROM
     affordable_housing_production;
 ```
 
+![graph](images/graph1.1.1.png)
 
 
 
