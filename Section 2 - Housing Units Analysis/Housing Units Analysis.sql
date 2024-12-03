@@ -6,8 +6,6 @@
 
 --  What is the distribution of housing units by income type (e.g., Extremely Low Income, Low Income)?
 
-SELECT*
-FROM affordable_housing_production
 
 
 
