@@ -23,7 +23,7 @@ FROM
 GROUP BY
     project_id
 ORDER BY
-    total_units_per_project DESC
+    total_units_per_project DESC;
 
 
 -- What is the average number of units per project?
