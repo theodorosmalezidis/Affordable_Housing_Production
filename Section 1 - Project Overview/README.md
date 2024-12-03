@@ -1,8 +1,8 @@
 # PROJECT OVERVIEW
 
-## Project Statistics
+## 1. Project Statistics
 
-- How many housing projects have been completed and how many were ongoing or have missing completion dates??
+- ### How many housing projects have been completed and how many were ongoing or have missing completion dates??
 
 ```sql
 SELECT 
@@ -12,14 +12,14 @@ FROM
     affordable_housing_production;
 ```
 
-
+Results
 
 ![Project Completion Status](/Section%201%20-%20Project%20Overview/images/project_completion_status.png)
 
 *Bar chart of Project Completion Status. This visualization was created with ChatGPT after importing my SQL query results*
 
 
-- What is the number of units per project?
+- ### What is the number of units per project?
 
 ```sql
 SELECT
@@ -34,7 +34,7 @@ ORDER BY
 ```
 
 
-- What is the average number of units per project?
+- ### What is the average number of units per project?
 
 ```sql
 SELECT
@@ -56,3 +56,40 @@ Results
 |---------------------------|
 |56,63                      |
 
+
+- ### How many projects are associated with each project id?
+
+```sql
+SELECT
+    project_id,
+    COUNT(*) AS number_of_projects
+FROM
+    affordable_housing_production
+GROUP BY
+    project_id
+ORDER BY
+    number_of_projects DESC;
+```
+
+
+## 2. PROJECT DISTRIBUTION
+
+
+- ### What is the distribution of projects across boroughs?
+
+```sql
+SELECT
+    borough,
+    COUNT(*) AS number_of_projects
+FROM
+    affordable_housing_production
+GROUP BY
+    borough
+ORDER BY
+    number_of_projects DESC;
+```
+
+Results
+![number_of_projects_per_borough](/Section%201%20-%20Project%20Overview/images/number_of_projects_per_borough.png)
+
+*Bar chart of Project Completion Status. This visualization was created with ChatGPT after importing my SQL query results*
