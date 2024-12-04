@@ -18,6 +18,7 @@ Results
 
 *Bar chart of Project Completion Status. This visualization was created with ChatGPT after importing my SQL query results*
 
+Completed projects are more by far!
 
 - ### What is the number of units per project?
 
@@ -89,11 +90,21 @@ ORDER BY
     number_of_projects DESC;
 ```
 
+
+
 Results
 ![completed_projects](/Section%201%20-%20Project%20Overview/images/number_of_projects_by_borough_chart.png)
 
 
 *Bar chart for Number of Projects per Borough. This visualization was created with ChatGPT after importing my SQL query results*
+
+This distribution of projects across boroughs can provide insights into several key aspects of housing policy and urban development:
+- Geographic Priorities
+- Economic Disparities
+- Policy Objectives
+- Infrastructure and Space Availability
+- Community Needs
+- Effectiveness of Housing Programs
 
 
 - ### Which borough has the highest number of projects completed?
@@ -116,6 +127,7 @@ Results
 ![completed_projects](/Section%201%20-%20Project%20Overview/images/completed_projects_by_borough_graph.png)
 *Bar chart for Completed Projects by Borough. This visualization was created with ChatGPT after importing my SQL query results*
 
+The results follow the same pattern as the distribution of projects across boroughs.
 
 ## 3. CONSTRUCTION TYPES
 
@@ -137,4 +149,4 @@ Results
 ![construction_types](/Section%201%20-%20Project%20Overview/images/construction_type_bar_chart.png)
 *Bar chart for Completed Projects by Borough. This visualization was created with ChatGPT after importing my SQL query results*
 
-Pretty close, but the Preservation type edged ahead.
+Pretty close, but the Preservation type edged ahead. This might indicate that the city is balancing its efforts between maintaining existing affordable housing (Preservation) and creating new affordable housing units (New Construction).
