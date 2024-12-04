@@ -93,6 +93,7 @@ ORDER BY
 
 
 Results
+
 ![completed_projects](/Section%201%20-%20Project%20Overview/images/number_of_projects_by_borough_chart.png)
 
 
