@@ -90,7 +90,51 @@ ORDER BY
 ```
 
 Results
+![completed_projects](/Section%201%20-%20Project%20Overview/images/number_of_projects_by_borough_chart.png)
 
-![number_of_projects_per_borough](/Section%201%20-%20Project%20Overview/images/number_of_projects_per_borough.png)
 
-*Bar chart for Number of projects per borough. This visualization was created with ChatGPT after importing my SQL query results*
+*Bar chart for Number of Projects per Borough. This visualization was created with ChatGPT after importing my SQL query results*
+
+
+- ### Which borough has the highest number of projects completed?
+
+```sql
+SELECT
+    borough,
+    COUNT(CASE WHEN project_completion_date IS NOT NULL THEN 1 END) AS completed_projects
+FROM
+    affordable_housing_production
+GROUP BY
+    borough
+ORDER BY
+    completed_projects DESC;
+```
+
+
+Results
+
+![completed_projects](/Section%201%20-%20Project%20Overview/images/completed_projects_by_borough_graph.png)
+*Bar chart for Completed Projects by Borough. This visualization was created with ChatGPT after importing my SQL query results*
+
+
+## 3. CONSTRUCTION TYPES
+
+
+- ### How many projects are categorized under each "Reporting Construction Type"? What is the most common construction type for affordable housing?
+
+```sql
+SELECT
+    reporting_construction_type,
+    COUNT(*)
+FROM
+    affordable_housing_production
+GROUP BY
+    reporting_construction_type;
+```
+
+Results
+
+![construction_types](/Section%201%20-%20Project%20Overview/images/construction_type_bar_chart.png)
+*Bar chart for Completed Projects by Borough. This visualization was created with ChatGPT after importing my SQL query results*
+
+Pretty close, but the Preservation type edged ahead.

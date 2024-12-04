@@ -81,7 +81,7 @@ FROM
 GROUP BY
     borough
 ORDER BY
-    completed_projects DESC
+    completed_projects DESC;
 
 
 --3. CONSTRUCTION TYPES
@@ -94,5 +94,5 @@ SELECT
 FROM
     affordable_housing_production
 GROUP BY
-    reporting_construction_type
+    reporting_construction_type;
 
