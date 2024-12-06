@@ -2,7 +2,7 @@
 
 --1.Project Statistics
 
---	How many housing projects have been completed and how many were ongoing or have missing completion dates??
+--How many housing projects have been completed and how many were ongoing or have missing completion dates??
 
 
 SELECT 
