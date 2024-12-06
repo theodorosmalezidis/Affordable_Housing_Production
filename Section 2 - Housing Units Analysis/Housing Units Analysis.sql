@@ -219,14 +219,14 @@ FROM
 GROUP BY
     project_id
 ORDER BY
-    studio_total DESC,
-    one_br_total DESC,
-    two_br_total DESC,
-    three_br_total DESC,
-    four_br_total DESC,
-    five_br_total DESC,
-    six_br_plus_total DESC,
-    unknown_br_total DESC
+    studio_total,
+    one_br_total,
+    two_br_total,
+    three_br_total,
+    four_br_total,
+    five_br_total,
+    six_br_plus_total,
+    unknown_br_total;
 
 -- Which bedroom category has the highest number of units in each borough?
 
