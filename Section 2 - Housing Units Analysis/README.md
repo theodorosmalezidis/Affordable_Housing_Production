@@ -432,7 +432,7 @@ Results
 
 ![Rental and Homeownership Units Distribution Across Boroughs](/Section%202%20-%20Housing%20Units%20Analysis/images/rental_and_%20homeownership_units_distribution_across_boroughs.png)
 
-
+*Bar chart of Rental and Homeownership Units Distribution Across Boroughs. This visualization was created with ChatGPT after importing my SQL query results*
 
 
 The Bronx has the highest number of both rental units (88,506) and homeownership units (22,337), reflecting its significant housing stock. Brooklyn follows with a high count of rental units (74,764) but fewer homeownership units (8,781). Manhattan also shows a strong presence in rental units (61,346) and a notable number of homeownership units (14,338). Queens has a moderate distribution of both rental (34,493) and homeownership units (11,378). Staten Island, by contrast, has the fewest units in both categories, highlighting its smaller scale of housing projects.
