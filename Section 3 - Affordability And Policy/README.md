@@ -35,7 +35,7 @@ GROUP BY
 ORDER BY
     extended_affordabillity_only_projects DESC;
 ```
-![Extended Affordability Projects](/Section%203%20-%20Affordability%20And%20Policy\images\extended_affordability_projects_by_borough.png)
+![Extended Affordability Projects](/Section%203%20-%20Affordability%20And%20Policy/images/extended_affordability_projects_by_borough.png)
 
 *Bar chart of Extended Affordability Projects Across Boroughs. This visualization was created with ChatGPT after importing my SQL query results*
 
@@ -117,6 +117,6 @@ GROUP BY
 
 Results
 
-![Prevailing Wage Distribution](/Section%203%20-%20Affordability%20And%20Policy\images\prevailing_wage_income_distribution.png)
+![Prevailing Wage Distribution](/Section%203%20-%20Affordability%20And%20Policy/images/prevailing_wage_income_distribution.png)
 
 *Pie chart of Prevailing Wage Projects per Income Categories Distribution. This visualization was created with ChatGPT after importing my SQL query results*
