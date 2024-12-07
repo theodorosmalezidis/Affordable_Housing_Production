@@ -120,3 +120,5 @@ Results
 ![Prevailing Wage Distribution](/Section%203%20-%20Affordability%20And%20Policy/images/prevailing_wage_income_distribution.png)
 
 *Pie chart of Prevailing Wage Projects per Income Categories Distribution. This visualization was created with ChatGPT after importing my SQL query results*
+
+This suggests that prevailing wage projects primarily focus on providing affordable housing for extremely low-income individuals, while a smaller portion supports low and very low-income households. The limited allocation to higher-income groups (moderate and middle income) indicates that these projects are primarily aimed at addressing the needs of the most economically disadvantaged populations.
