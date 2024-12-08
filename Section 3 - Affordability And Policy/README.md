@@ -61,7 +61,7 @@ Results
 | New Construction            | 3,691          | 0                                | 99                                  |
 
 
-The data reveals that the majority of projects under "Preservation" (27%) have extended affordability, while most of the "New Construction" projects (99%) do not include extended affordability. This suggests that "Preservation" projects are more likely to offer extended affordability, whereas new constructions predominantly do not.
+The dominance of Non-Extended Affordability in both construction types may indicate a need for policies that enforce longer-term affordability commitments, especially in new constructions, to ensure that the supply of truly affordable housing remains accessible to low-income residents over the long term.
 
 
 ## 2. Prevailing Wage Impact
