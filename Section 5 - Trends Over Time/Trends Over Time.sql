@@ -11,9 +11,9 @@ SELECT
 FROM
     affordable_housing_production
 GROUP BY
-project_year
-ORDER BY
     project_year
+ORDER BY
+    project_year;
 
 
 
@@ -60,11 +60,11 @@ WHERE
     project_completion_date IS NOT NULL
 ORDER BY
     project_duration_days ASC
-LIMIT 10
+LIMIT 1;
 
 /*(I am unsure about the interpretation of these results)*/
 
---c)AVERAGE
+--c)average
 
 SELECT
     ROUND(AVG(project_completion_date - project_start_date), 0) AS average_completion_time_days
@@ -89,7 +89,7 @@ WHERE
 GROUP BY
     borough
 ORDER BY
-    average_completion_time_days
+    average_completion_time_days DESC;
 
 
 --b) construction types
@@ -105,8 +105,7 @@ WHERE
 GROUP BY
     reporting_construction_type
 ORDER BY
-    average_completion_time_days
-
+    average_completion_time_days DESC;
 
 
 
@@ -117,7 +116,7 @@ ORDER BY
 --	How has the production of affordable housing units changed over time?( What is the total number of affordable units produced by year?)
 
 
-    SELECT
+SELECT
     EXTRACT(YEAR FROM project_start_date) AS project_year, 
     SUM(all_counted_units) AS total_affordable_units
 FROM
@@ -185,7 +184,7 @@ ORDER BY
     project_year;
 
 
--- what is the cumulative number of projects by borough over time
+-- what is the cumulative number of projects by borough over time?
 
 SELECT
     borough,
