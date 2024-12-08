@@ -141,7 +141,7 @@ Results
 
 The variation in completion times could also reflect differences in local regulations, workforce availability, or funding structures across boroughs.
 
-**b) construction types
+**b) construction types**
 
 ```sql
 SELECT
