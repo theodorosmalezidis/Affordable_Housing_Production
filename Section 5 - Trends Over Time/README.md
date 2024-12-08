@@ -43,7 +43,7 @@ Results
 
 *Bar chart of Project Completed every year. This visualization was created with ChatGPT after importing my SQL query results*
 
-So, 2019 was the year with the highest number of complete projects with 804, 2015 with the lowest 249 and 1633 prolectsare yet to be completed.
+So, 2019 was the year with the highest number of complete projects with 804, 2015 with the lowest 249 and 1633 projects are yet to be completed.
 
 ## 2. Completion Time Analysis
 
