@@ -253,7 +253,7 @@ ORDER BY
     project_year;
 ```
 
-Hre i start with a CTE which groups the data by borough and the year of the project start date. For each group, it calculates the total number of projects in that borough for that specific year by using EXTRACT(YEAR FROM project_start_date) to extract the year from the project start date and COUNT(*) to count the number of projects for each borough and year combination.
+Here i start with a CTE which groups the data by borough and the year of the project start date. For each group, it calculates the total number of projects in that borough for that specific year by using EXTRACT(YEAR FROM project_start_date) to extract the year from the project start date and COUNT(*) to count the number of projects for each borough and year combination.
 
 The main query then retrieves these yearly totals and uses the LAG() window function to compare the current year's project count with the previous year's count. The LAG() function allows us to "look back" at the previous row in the data partitioned by borough and ordered by year. This provides the number of projects from the previous year for the same borough. By subtracting the previous year's projects from the current year's, the query calculates the project difference, which shows whether the number of projects increased or decreased from one year to the next.
 
